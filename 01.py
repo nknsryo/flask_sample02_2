@@ -8,9 +8,9 @@ def hello_world():
     return "Hello world"
 
 
-# @app.route("/login")
-# def login():
-#     return "login!!"
+@app.route("/login")
+def login():
+    return "login!!"
 
 
 @app.route("/users/<name>")
