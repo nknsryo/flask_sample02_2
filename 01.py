@@ -18,5 +18,10 @@ def hi(name):
     return f"Hi.{name}!!"
 
 
+@app.route("/use/<name>")
+def hi_use(name):
+    return f"Hi.{name}!!"
+
+
 if __name__ == '__main__':
     app.run(debug=True, port=5001)
