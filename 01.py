@@ -13,9 +13,9 @@ def login():
     return "login!!"
 
 
-# @app.route("/users/<name>")
-# def hi(name):
-#     return f"Hi.{name}!!"
+@app.route("/users/<name>")
+def hi(name):
+    return f"Hi.{name}!!"
 
 
 if __name__ == '__main__':
